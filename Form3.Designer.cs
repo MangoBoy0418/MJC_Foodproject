@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             tableLayoutPanel1 = new TableLayoutPanel();
             label1 = new Label();
             button1 = new Button();
@@ -62,20 +63,28 @@
             // 
             // button1
             // 
+            button1.Font = new Font("맑은 고딕", 18F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button1.ForeColor = SystemColors.HighlightText;
+            button1.Image = (Image)resources.GetObject("button1.Image");
             button1.Location = new Point(3, 3);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(261, 415);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "밥";
+            button1.TextAlign = ContentAlignment.BottomCenter;
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
+            button2.Font = new Font("맑은 고딕", 18F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button2.ForeColor = SystemColors.HighlightText;
+            button2.Image = (Image)resources.GetObject("button2.Image");
             button2.Location = new Point(270, 3);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(261, 415);
             button2.TabIndex = 1;
-            button2.Text = "button2";
+            button2.Text = "면";
+            button2.TextAlign = ContentAlignment.BottomCenter;
             button2.UseVisualStyleBackColor = true;
             // 
             // Form3
