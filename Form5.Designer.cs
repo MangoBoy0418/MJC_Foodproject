@@ -30,6 +30,10 @@
         {
             tableLayoutPanel1 = new TableLayoutPanel();
             label1 = new Label();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -38,6 +42,9 @@
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
+            tableLayoutPanel1.Controls.Add(button1, 0, 0);
+            tableLayoutPanel1.Controls.Add(button2, 1, 0);
+            tableLayoutPanel1.Controls.Add(button3, 2, 0);
             tableLayoutPanel1.Dock = DockStyle.Bottom;
             tableLayoutPanel1.Location = new Point(0, 90);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -57,6 +64,33 @@
             label1.Text = "양식 종류를 구하시오";
             label1.TextAlign = ContentAlignment.TopCenter;
             // 
+            // button1
+            // 
+            button1.Location = new Point(3, 3);
+            button1.Name = "button1";
+            button1.Size = new Size(222, 415);
+            button1.TabIndex = 0;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(231, 3);
+            button2.Name = "button2";
+            button2.Size = new Size(222, 415);
+            button2.TabIndex = 1;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(459, 3);
+            button3.Name = "button3";
+            button3.Size = new Size(222, 415);
+            button3.TabIndex = 2;
+            button3.Text = "button3";
+            button3.UseVisualStyleBackColor = true;
+            // 
             // Form5
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -66,6 +100,7 @@
             Controls.Add(tableLayoutPanel1);
             Name = "Form5";
             Text = "Form5";
+            tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -74,5 +109,8 @@
 
         private TableLayoutPanel tableLayoutPanel1;
         private Label label1;
+        private Button button1;
+        private Button button2;
+        private Button button3;
     }
 }
