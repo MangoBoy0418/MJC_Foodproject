@@ -127,6 +127,8 @@
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximumSize = new Size(550, 550);
+            MinimumSize = new Size(550, 550);
             Name = "main";
             Text = "Form1";
             tableLayoutPanel1.ResumeLayout(false);
