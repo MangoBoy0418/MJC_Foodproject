@@ -1,6 +1,6 @@
 ﻿namespace MJC_Foodproject
 {
-    partial class japan
+    partial class form2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(japan));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form2));
             tableLayoutPanel1 = new TableLayoutPanel();
             button1 = new Button();
             button2 = new Button();
@@ -83,13 +83,13 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(91, 20);
+            label1.Location = new Point(89, 21);
             label1.Name = "label1";
             label1.Size = new Size(359, 47);
             label1.TabIndex = 1;
-            label1.Text = "일식 종류를 고르시오";
+            label1.Text = "한식 종류를 고르시오";
             // 
-            // japan
+            // korea
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -98,8 +98,9 @@
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Name = "japan";
-            Text = "Form3";
+            Name = "korea";
+            Text = "Form2";
+            Load += Form2_Load;
             tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
