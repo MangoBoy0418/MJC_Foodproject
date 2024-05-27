@@ -43,14 +43,14 @@
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Size = new Size(534, 421);
+            tableLayoutPanel1.Size = new Size(684, 421);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(87, 22);
+            label1.Location = new Point(164, 20);
             label1.Name = "label1";
             label1.Size = new Size(359, 47);
             label1.TabIndex = 1;
@@ -61,7 +61,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(534, 511);
+            ClientSize = new Size(684, 511);
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
             Name = "Form5";
