@@ -79,7 +79,7 @@
             button3.Name = "button3";
             button3.Size = new Size(75, 23);
             button3.TabIndex = 2;
-            button3.Text = "button3";
+            button3.Text = "중식";
             button3.UseVisualStyleBackColor = true;
             // 
             // button4
@@ -88,7 +88,7 @@
             button4.Name = "button4";
             button4.Size = new Size(75, 23);
             button4.TabIndex = 3;
-            button4.Text = "button4";
+            button4.Text = "양식";
             button4.UseVisualStyleBackColor = true;
             // 
             // label1
