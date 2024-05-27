@@ -59,6 +59,7 @@
             // button1
             // 
             button1.AutoSize = true;
+            button1.BackgroundImageLayout = ImageLayout.Stretch;
             button1.Font = new Font("맑은 고딕", 18F, FontStyle.Bold, GraphicsUnit.Point, 129);
             button1.ForeColor = SystemColors.HighlightText;
             button1.Image = (Image)resources.GetObject("button1.Image");
