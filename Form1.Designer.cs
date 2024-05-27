@@ -58,6 +58,7 @@
             // 
             // button1
             // 
+            button1.Image = (Image)resources.GetObject("button1.Image");
             button1.Location = new Point(3, 3);
             button1.Name = "button1";
             button1.Size = new Size(261, 204);
