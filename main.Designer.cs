@@ -58,6 +58,7 @@
             // 
             // button1
             // 
+            button1.AutoSize = true;
             button1.Font = new Font("맑은 고딕", 18F, FontStyle.Bold, GraphicsUnit.Point, 129);
             button1.ForeColor = SystemColors.HighlightText;
             button1.Image = (Image)resources.GetObject("button1.Image");
@@ -132,6 +133,7 @@
             Name = "main";
             Text = "Form1";
             tableLayoutPanel1.ResumeLayout(false);
+            tableLayoutPanel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
