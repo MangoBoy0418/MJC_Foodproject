@@ -63,7 +63,6 @@
             button1.BackgroundImageLayout = ImageLayout.Stretch;
             button1.Font = new Font("맑은 고딕", 18F, FontStyle.Bold, GraphicsUnit.Point, 129);
             button1.ForeColor = SystemColors.HighlightText;
-            button1.Image = (Image)resources.GetObject("button1.Image");
             button1.Location = new Point(3, 3);
             button1.Name = "button1";
             button1.Size = new Size(261, 204);
@@ -74,9 +73,10 @@
             // 
             // button2
             // 
+            button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
+            button2.BackgroundImageLayout = ImageLayout.Stretch;
             button2.Font = new Font("맑은 고딕", 18F, FontStyle.Bold, GraphicsUnit.Point, 129);
             button2.ForeColor = SystemColors.HighlightText;
-            button2.Image = (Image)resources.GetObject("button2.Image");
             button2.Location = new Point(270, 3);
             button2.Name = "button2";
             button2.Size = new Size(261, 204);
@@ -87,9 +87,10 @@
             // 
             // button3
             // 
+            button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
+            button3.BackgroundImageLayout = ImageLayout.Stretch;
             button3.Font = new Font("맑은 고딕", 18F, FontStyle.Bold, GraphicsUnit.Point, 129);
             button3.ForeColor = SystemColors.HighlightText;
-            button3.Image = (Image)resources.GetObject("button3.Image");
             button3.Location = new Point(3, 213);
             button3.Name = "button3";
             button3.Size = new Size(261, 205);
@@ -100,9 +101,10 @@
             // 
             // button4
             // 
+            button4.BackgroundImage = (Image)resources.GetObject("button4.BackgroundImage");
+            button4.BackgroundImageLayout = ImageLayout.Stretch;
             button4.Font = new Font("맑은 고딕", 18F, FontStyle.Bold, GraphicsUnit.Point, 129);
             button4.ForeColor = SystemColors.HighlightText;
-            button4.Image = (Image)resources.GetObject("button4.Image");
             button4.Location = new Point(270, 213);
             button4.Name = "button4";
             button4.Size = new Size(261, 205);
