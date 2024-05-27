@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace MJC_Foodproject
 {
-    public partial class Form3 : Form
+    public partial class korea : Form
     {
-        public Form3()
+        public korea()
         {
             InitializeComponent();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace MJC_Foodproject
 {
-    partial class Form4
+    partial class china
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(china));
             tableLayoutPanel1 = new TableLayoutPanel();
             label1 = new Label();
             button1 = new Button();

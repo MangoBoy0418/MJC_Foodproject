@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MJC_Foodproject
 {
-    public partial class Form4 : Form
+    public partial class china : Form
     {
-        public Form4()
+        public china()
         {
             InitializeComponent();
         }
