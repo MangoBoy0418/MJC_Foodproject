@@ -104,7 +104,7 @@
             label1.Name = "label1";
             label1.Size = new Size(359, 47);
             label1.TabIndex = 1;
-            label1.Text = "양식 종류를 구하시오";
+            label1.Text = "양식 종류를 고르시오";
             label1.TextAlign = ContentAlignment.TopCenter;
             // 
             // western
