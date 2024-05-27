@@ -64,6 +64,7 @@
             button1.Size = new Size(261, 204);
             button1.TabIndex = 0;
             button1.Text = "한식";
+            button1.TextAlign = ContentAlignment.BottomCenter;
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -75,6 +76,7 @@
             button2.Size = new Size(261, 204);
             button2.TabIndex = 1;
             button2.Text = "일식";
+            button2.TextAlign = ContentAlignment.BottomCenter;
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
@@ -85,6 +87,7 @@
             button3.Size = new Size(261, 205);
             button3.TabIndex = 2;
             button3.Text = "중식";
+            button3.TextAlign = ContentAlignment.BottomCenter;
             button3.UseVisualStyleBackColor = true;
             // 
             // button4
@@ -94,6 +97,7 @@
             button4.Size = new Size(261, 205);
             button4.TabIndex = 3;
             button4.Text = "양식";
+            button4.TextAlign = ContentAlignment.BottomCenter;
             button4.UseVisualStyleBackColor = true;
             // 
             // label1
