@@ -130,6 +130,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "main";
             Text = "Form1";
+            Load += this.main_Load;
             tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
