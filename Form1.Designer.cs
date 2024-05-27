@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             tableLayoutPanel1 = new TableLayoutPanel();
             button1 = new Button();
             button2 = new Button();
@@ -67,6 +68,7 @@
             // 
             // button2
             // 
+            button2.Image = (Image)resources.GetObject("button2.Image");
             button2.Location = new Point(270, 3);
             button2.Name = "button2";
             button2.Size = new Size(261, 204);
