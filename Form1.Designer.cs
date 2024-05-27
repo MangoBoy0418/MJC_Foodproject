@@ -59,16 +59,17 @@
             // 
             button1.Location = new Point(3, 3);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(261, 204);
             button1.TabIndex = 0;
             button1.Text = "한식";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
             button2.Location = new Point(270, 3);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(261, 204);
             button2.TabIndex = 1;
             button2.Text = "일식";
             button2.UseVisualStyleBackColor = true;
@@ -77,7 +78,7 @@
             // 
             button3.Location = new Point(3, 213);
             button3.Name = "button3";
-            button3.Size = new Size(75, 23);
+            button3.Size = new Size(261, 205);
             button3.TabIndex = 2;
             button3.Text = "중식";
             button3.UseVisualStyleBackColor = true;
@@ -86,7 +87,7 @@
             // 
             button4.Location = new Point(270, 213);
             button4.Name = "button4";
-            button4.Size = new Size(75, 23);
+            button4.Size = new Size(261, 205);
             button4.TabIndex = 3;
             button4.Text = "양식";
             button4.UseVisualStyleBackColor = true;
