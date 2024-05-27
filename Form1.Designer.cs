@@ -33,6 +33,7 @@
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
+            label1 = new Label();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -90,16 +91,28 @@
             button4.Text = "button4";
             button4.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            label1.Location = new Point(88, 20);
+            label1.Name = "label1";
+            label1.Size = new Size(359, 47);
+            label1.TabIndex = 1;
+            label1.Text = "점심 메뉴를 고르시오";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(534, 511);
+            Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
             Name = "Form1";
             Text = "Form1";
             tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -109,5 +122,6 @@
         private Button button2;
         private Button button3;
         private Button button4;
+        private Label label1;
     }
 }
