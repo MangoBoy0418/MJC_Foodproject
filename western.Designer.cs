@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(western));
             tableLayoutPanel1 = new TableLayoutPanel();
-            label1 = new Label();
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
+            label1 = new Label();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -53,17 +53,6 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel1.Size = new Size(684, 421);
             tableLayoutPanel1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(164, 20);
-            label1.Name = "label1";
-            label1.Size = new Size(359, 47);
-            label1.TabIndex = 1;
-            label1.Text = "양식 종류를 구하시오";
-            label1.TextAlign = ContentAlignment.TopCenter;
             // 
             // button1
             // 
@@ -104,14 +93,26 @@
             button3.TextAlign = ContentAlignment.BottomCenter;
             button3.UseVisualStyleBackColor = true;
             // 
-            // Form5
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            label1.Location = new Point(164, 20);
+            label1.Name = "label1";
+            label1.Size = new Size(359, 47);
+            label1.TabIndex = 1;
+            label1.Text = "양식 종류를 구하시오";
+            label1.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // western
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(684, 511);
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
-            Name = "Form5";
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Name = "western";
             Text = "Form5";
             tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);

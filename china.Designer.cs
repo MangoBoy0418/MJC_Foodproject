@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(china));
             tableLayoutPanel1 = new TableLayoutPanel();
-            label1 = new Label();
             button1 = new Button();
             button2 = new Button();
+            label1 = new Label();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -50,17 +50,6 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.Size = new Size(534, 421);
             tableLayoutPanel1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(87, 24);
-            label1.Name = "label1";
-            label1.Size = new Size(359, 47);
-            label1.TabIndex = 1;
-            label1.Text = "중식 종류를 고르시오";
-            label1.Click += label1_Click;
             // 
             // button1
             // 
@@ -88,14 +77,26 @@
             button2.TextAlign = ContentAlignment.BottomCenter;
             button2.UseVisualStyleBackColor = true;
             // 
-            // Form4
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            label1.Location = new Point(87, 24);
+            label1.Name = "label1";
+            label1.Size = new Size(359, 47);
+            label1.TabIndex = 1;
+            label1.Text = "중식 종류를 고르시오";
+            label1.Click += label1_Click;
+            // 
+            // china
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(534, 511);
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
-            Name = "Form4";
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Name = "china";
             Text = "Form4";
             tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);

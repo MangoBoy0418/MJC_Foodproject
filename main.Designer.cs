@@ -119,14 +119,15 @@
             label1.TabIndex = 1;
             label1.Text = "점심 메뉴를 고르시오";
             // 
-            // Form1
+            // main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(534, 511);
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
-            Name = "Form1";
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Name = "main";
             Text = "Form1";
             tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
