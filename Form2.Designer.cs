@@ -96,6 +96,7 @@
             Controls.Add(tableLayoutPanel1);
             Name = "Form2";
             Text = "Form2";
+            Load += Form2_Load;
             tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
