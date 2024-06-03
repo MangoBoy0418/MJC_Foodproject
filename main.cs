@@ -50,5 +50,12 @@ namespace MJC_Foodproject
             form5 newform5 = new form5();
             newform5.ShowDialog();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form14 newform14 = new Form14();
+            newform14.ShowDialog();
+            this.Visible = false;
+        }
     }
 }

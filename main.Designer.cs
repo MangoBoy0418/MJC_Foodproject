@@ -137,6 +137,7 @@
             button5.TabIndex = 2;
             button5.Text = "메뉴 랜덤";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // main
             // 
