@@ -28,22 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form13));
             tableLayoutPanel1 = new TableLayoutPanel();
-            button1 = new Button();
             button2 = new Button();
             button3 = new Button();
+            button1 = new Button();
             button4 = new Button();
             button5 = new Button();
             button6 = new Button();
-            label1 = new Label();
-            button7 = new Button();
-            button8 = new Button();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
             pictureBox4 = new PictureBox();
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
+            label1 = new Label();
+            button7 = new Button();
+            button8 = new Button();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -81,17 +82,6 @@
             tableLayoutPanel1.Size = new Size(986, 603);
             tableLayoutPanel1.TabIndex = 3;
             // 
-            // button1
-            // 
-            button1.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button1.Location = new Point(249, 3);
-            button1.Name = "button1";
-            button1.Size = new Size(240, 195);
-            button1.TabIndex = 0;
-            button1.Text = "토마토 스파게티";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
             // button2
             // 
             button2.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
@@ -113,6 +103,17 @@
             button3.Text = "로제 파스타";
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
+            // 
+            // button1
+            // 
+            button1.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button1.Location = new Point(249, 3);
+            button1.Name = "button1";
+            button1.Size = new Size(240, 195);
+            button1.TabIndex = 0;
+            button1.Text = "토마토 스파게티";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button4
             // 
@@ -147,6 +148,60 @@
             button6.UseVisualStyleBackColor = true;
             button6.Click += button6_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
+            pictureBox1.Location = new Point(3, 3);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(240, 195);
+            pictureBox1.TabIndex = 6;
+            pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
+            pictureBox2.Location = new Point(495, 3);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(240, 195);
+            pictureBox2.TabIndex = 7;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
+            pictureBox3.Location = new Point(3, 204);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(240, 195);
+            pictureBox3.TabIndex = 8;
+            pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
+            pictureBox4.Location = new Point(495, 204);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(240, 195);
+            pictureBox4.TabIndex = 9;
+            pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
+            pictureBox5.Location = new Point(3, 405);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(240, 195);
+            pictureBox5.TabIndex = 10;
+            pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.BackgroundImage = (Image)resources.GetObject("pictureBox6.BackgroundImage");
+            pictureBox6.Location = new Point(495, 405);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(240, 195);
+            pictureBox6.TabIndex = 11;
+            pictureBox6.TabStop = false;
+            // 
             // label1
             // 
             label1.AutoSize = true;
@@ -178,54 +233,6 @@
             button8.Text = "처음으로";
             button8.UseVisualStyleBackColor = true;
             button8.Click += button8_Click;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Location = new Point(3, 3);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(240, 195);
-            pictureBox1.TabIndex = 6;
-            pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Location = new Point(495, 3);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(240, 195);
-            pictureBox2.TabIndex = 7;
-            pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.Location = new Point(3, 204);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(240, 195);
-            pictureBox3.TabIndex = 8;
-            pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            pictureBox4.Location = new Point(495, 204);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(240, 195);
-            pictureBox4.TabIndex = 9;
-            pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            pictureBox5.Location = new Point(3, 405);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(240, 195);
-            pictureBox5.TabIndex = 10;
-            pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            pictureBox6.Location = new Point(495, 405);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(240, 195);
-            pictureBox6.TabIndex = 11;
-            pictureBox6.TabStop = false;
             // 
             // Form13
             // 

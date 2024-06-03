@@ -28,26 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form11));
             tableLayoutPanel1 = new TableLayoutPanel();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button6 = new Button();
-            label1 = new Label();
-            button8 = new Button();
-            button9 = new Button();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
-            pictureBox4 = new PictureBox();
             pictureBox5 = new PictureBox();
+            button2 = new Button();
+            button3 = new Button();
+            button1 = new Button();
+            button4 = new Button();
+            button6 = new Button();
+            pictureBox4 = new PictureBox();
+            label1 = new Label();
+            button8 = new Button();
+            button9 = new Button();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -76,16 +77,41 @@
             tableLayoutPanel1.Size = new Size(986, 598);
             tableLayoutPanel1.TabIndex = 3;
             // 
-            // button1
+            // pictureBox1
             // 
-            button1.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button1.Location = new Point(249, 3);
-            button1.Name = "button1";
-            button1.Size = new Size(240, 193);
-            button1.TabIndex = 0;
-            button1.Text = "샌드위치";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
+            pictureBox1.Location = new Point(3, 3);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(240, 193);
+            pictureBox1.TabIndex = 18;
+            pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
+            pictureBox2.Location = new Point(3, 202);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(240, 193);
+            pictureBox2.TabIndex = 19;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
+            pictureBox3.Location = new Point(3, 401);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(240, 194);
+            pictureBox3.TabIndex = 20;
+            pictureBox3.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
+            pictureBox5.Location = new Point(495, 3);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(240, 193);
+            pictureBox5.TabIndex = 22;
+            pictureBox5.TabStop = false;
             // 
             // button2
             // 
@@ -109,6 +135,17 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
+            // button1
+            // 
+            button1.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button1.Location = new Point(249, 3);
+            button1.Name = "button1";
+            button1.Size = new Size(240, 193);
+            button1.TabIndex = 0;
+            button1.Text = "샌드위치";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // button4
             // 
             button4.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
@@ -131,11 +168,20 @@
             button6.UseVisualStyleBackColor = true;
             button6.Click += button6_Click;
             // 
+            // pictureBox4
+            // 
+            pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
+            pictureBox4.Location = new Point(495, 202);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(240, 193);
+            pictureBox4.TabIndex = 21;
+            pictureBox4.TabStop = false;
+            // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(306, 9);
+            label1.Location = new Point(302, 9);
             label1.Name = "label1";
             label1.Size = new Size(370, 47);
             label1.TabIndex = 2;
@@ -163,46 +209,6 @@
             button9.UseVisualStyleBackColor = true;
             button9.Click += button9_Click;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Location = new Point(3, 3);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(240, 193);
-            pictureBox1.TabIndex = 18;
-            pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Location = new Point(3, 202);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(240, 193);
-            pictureBox2.TabIndex = 19;
-            pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.Location = new Point(3, 401);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(240, 194);
-            pictureBox3.TabIndex = 20;
-            pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            pictureBox4.Location = new Point(495, 202);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(240, 193);
-            pictureBox4.TabIndex = 21;
-            pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            pictureBox5.Location = new Point(495, 3);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(240, 193);
-            pictureBox5.TabIndex = 22;
-            pictureBox5.TabStop = false;
-            // 
             // Form11
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -220,8 +226,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
