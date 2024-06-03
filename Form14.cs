@@ -94,5 +94,10 @@ namespace MJC_Foodproject
                 label1.Text = am[b];
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
