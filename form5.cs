@@ -28,15 +28,15 @@ namespace MJC_Foodproject
         private void button1_Click(object sender, EventArgs e)
         {
             Form11 newform11 = new Form11();
+            this.Visible = false; 
             newform11.ShowDialog();
-            this.Visible = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Form12 newform12 = new Form12();
-            newform12.ShowDialog();
             this.Visible = false;
+            newform12.ShowDialog();
         }
     }
 }
