@@ -63,5 +63,10 @@ namespace MJC_Foodproject
         {
             MessageBox.Show("메밀,밀가루를 반죽하여 삶은 면을 냉수에 식혀 양념장과 함께 먹는 전통적인 한국의 면요리로, 한 그릇의 칼로리는 약 300~400kcal이며, 평균 가격은 7,000원에서 10,000원입니다.", "막국수", MessageBoxButtons.OK);
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

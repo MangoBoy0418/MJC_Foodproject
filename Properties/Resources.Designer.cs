@@ -59,5 +59,25 @@ namespace MJC_Foodproject.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1b4cda81fc9ab988 {
+            get {
+                object obj = ResourceManager.GetObject("1b4cda81fc9ab988", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3579387068757305 {
+            get {
+                object obj = ResourceManager.GetObject("3579387068757305", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
