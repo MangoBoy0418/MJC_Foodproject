@@ -35,6 +35,7 @@
             button3 = new Button();
             button4 = new Button();
             label1 = new Label();
+            button5 = new Button();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -121,11 +122,21 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(89, 18);
+            label1.Location = new Point(12, 18);
             label1.Name = "label1";
             label1.Size = new Size(359, 47);
             label1.TabIndex = 1;
             label1.Text = "점심 메뉴를 고르시오";
+            // 
+            // button5
+            // 
+            button5.Font = new Font("맑은 고딕", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button5.Location = new Point(447, 18);
+            button5.Name = "button5";
+            button5.Size = new Size(75, 47);
+            button5.TabIndex = 2;
+            button5.Text = "메뉴 랜덤";
+            button5.UseVisualStyleBackColor = true;
             // 
             // main
             // 
@@ -133,6 +144,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
             ClientSize = new Size(534, 511);
+            Controls.Add(button5);
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
@@ -155,5 +167,6 @@
         private Button button3;
         private Button button4;
         private Label label1;
+        private Button button5;
     }
 }
