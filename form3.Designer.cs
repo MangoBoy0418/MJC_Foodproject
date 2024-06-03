@@ -64,6 +64,7 @@
             button1.Text = "밥";
             button1.TextAlign = ContentAlignment.BottomCenter;
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -78,6 +79,7 @@
             button2.Text = "면";
             button2.TextAlign = ContentAlignment.BottomCenter;
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // label1
             // 
@@ -89,7 +91,7 @@
             label1.TabIndex = 1;
             label1.Text = "일식 종류를 고르시오";
             // 
-            // japan
+            // form3
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -98,7 +100,7 @@
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Name = "japan";
+            Name = "form3";
             Text = "Form3";
             tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
