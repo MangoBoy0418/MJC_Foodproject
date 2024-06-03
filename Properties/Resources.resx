@@ -118,10 +118,328 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="1b4cda81fc9ab988" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1b4cda81fc9ab988.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="aliooilo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aliooilo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="3579387068757305" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3579387068757305.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="armysoup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\armysoup.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beannoodle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beannoodle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bibimbob" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bibimbob.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bibimnoodle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bibimnoodle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonehangover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haejang.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bread" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bread.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buffalowings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buffalowing.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bulgogi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bulgogi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="creampasta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carbonara.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curryrice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curryrice.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="donkatsu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\donkatsu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eelrice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eelrice.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="friedchicken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\friedchicken.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="friedrice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\friedrice.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ganjjazang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ganjjazang.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gookbob" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gookbob.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hamberger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hamburger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iceage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coldnoodle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inkpasta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inkpasta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="isaac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toast.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jabtangbob" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jobtangbob.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jaengbanjjazang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jaengbanjjazang.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jaeyook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jaeyook.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="janchinoodle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\janchinoodle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="japchaebob" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jabchaebob.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jjambbong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jjambbong.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jjambbongbob" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jjambbongrice.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jjazang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jjazang.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jjazangbob" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jjazangbob.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="katsudon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\katsudon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kebob" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kebab.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="knifenoodle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\knifenoodle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kyudong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kyudong.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lasagna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lasagna.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="majesoba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\majesoba.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maknoodle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maknoodle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapatofu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapatofu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="meatjjambbong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\meatjjambbong4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ramen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ramen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ramyun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ramyun.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rosepasta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rosepasta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sakedon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sakedon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sandwich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sandwich.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seafoodpasta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seafoodpasta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shrimpfriedrice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shrimpfriedrice.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soba.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="softtofu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\softtofu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="steak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\steak.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sushi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sushi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tomatoe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tomatoespaghett.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="udon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\udon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yakisoba" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yakisoba.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="가츠동" xml:space="preserve">
+    <value>가츠동</value>
+  </data>
+  <data name="간짜장" xml:space="preserve">
+    <value>간짜장</value>
+  </data>
+  <data name="계란볶음밥" xml:space="preserve">
+    <value>계란볶음밥</value>
+  </data>
+  <data name="국밥" xml:space="preserve">
+    <value>국밥</value>
+  </data>
+  <data name="규동" xml:space="preserve">
+    <value>규동</value>
+  </data>
+  <data name="냉면" xml:space="preserve">
+    <value>냉면</value>
+  </data>
+  <data name="돈까스" xml:space="preserve">
+    <value>돈까스</value>
+  </data>
+  <data name="돌솥비빔밥" xml:space="preserve">
+    <value>돌솥비빔밥</value>
+  </data>
+  <data name="라멘" xml:space="preserve">
+    <value>라멘</value>
+  </data>
+  <data name="라면" xml:space="preserve">
+    <value>라면</value>
+  </data>
+  <data name="라자냐" xml:space="preserve">
+    <value>라자냐</value>
+  </data>
+  <data name="로제파스타" xml:space="preserve">
+    <value>로제파스타</value>
+  </data>
+  <data name="마제소바" xml:space="preserve">
+    <value>마제소바</value>
+  </data>
+  <data name="마파두부" xml:space="preserve">
+    <value>마파두부</value>
+  </data>
+  <data name="막국수" xml:space="preserve">
+    <value>막국수</value>
+  </data>
+  <data name="먹물파스타" xml:space="preserve">
+    <value>먹물파스타</value>
+  </data>
+  <data name="메밀소바" xml:space="preserve">
+    <value>메밀소바</value>
+  </data>
+  <data name="버팔로윙" xml:space="preserve">
+    <value>버팔로윙</value>
+  </data>
+  <data name="부대찌개" xml:space="preserve">
+    <value>부대찌개</value>
+  </data>
+  <data name="불고기" xml:space="preserve">
+    <value>불고기</value>
+  </data>
+  <data name="비빔국수" xml:space="preserve">
+    <value>비빔국수</value>
+  </data>
+  <data name="빵" xml:space="preserve">
+    <value>빵</value>
+  </data>
+  <data name="뼈해장국" xml:space="preserve">
+    <value>뼈해장국</value>
+  </data>
+  <data name="새우볶음밥" xml:space="preserve">
+    <value>새우볶음밥</value>
+  </data>
+  <data name="샌드위치" xml:space="preserve">
+    <value>샌드위치</value>
+  </data>
+  <data name="순두부찌개" xml:space="preserve">
+    <value>순두부찌개</value>
+  </data>
+  <data name="스테이크" xml:space="preserve">
+    <value>스테이크</value>
+  </data>
+  <data name="알리오 올리오" xml:space="preserve">
+    <value>알리오 올리오</value>
+  </data>
+  <data name="야키소바" xml:space="preserve">
+    <value>야키소바</value>
+  </data>
+  <data name="연어덮밥" xml:space="preserve">
+    <value>연어덮밥</value>
+  </data>
+  <data name="우동" xml:space="preserve">
+    <value>우동</value>
+  </data>
+  <data name="잔치국수" xml:space="preserve">
+    <value>잔치국수</value>
+  </data>
+  <data name="잡채밥" xml:space="preserve">
+    <value>잡채밥</value>
+  </data>
+  <data name="잡탕밥" xml:space="preserve">
+    <value>잡탕밥</value>
+  </data>
+  <data name="장어덮밥" xml:space="preserve">
+    <value>장어덮밥</value>
+  </data>
+  <data name="쟁반짜장" xml:space="preserve">
+    <value>쟁반짜장</value>
+  </data>
+  <data name="제육볶음" xml:space="preserve">
+    <value>제육볶음</value>
+  </data>
+  <data name="짜장면" xml:space="preserve">
+    <value>짜장면</value>
+  </data>
+  <data name="짜장밥" xml:space="preserve">
+    <value>짜장밥</value>
+  </data>
+  <data name="짬뽕" xml:space="preserve">
+    <value>짬뽕</value>
+  </data>
+  <data name="짬뽕밥" xml:space="preserve">
+    <value>짬뽕밥</value>
+  </data>
+  <data name="차돌짬뽕" xml:space="preserve">
+    <value>차돌짬뽕</value>
+  </data>
+  <data name="초밥" xml:space="preserve">
+    <value>초밥</value>
+  </data>
+  <data name="치킨" xml:space="preserve">
+    <value>치킨</value>
+  </data>
+  <data name="카레라이스" xml:space="preserve">
+    <value>카레라이스</value>
+  </data>
+  <data name="칼국수" xml:space="preserve">
+    <value>칼국수</value>
+  </data>
+  <data name="케밥" xml:space="preserve">
+    <value>케밥</value>
+  </data>
+  <data name="콩국수" xml:space="preserve">
+    <value>콩국수</value>
+  </data>
+  <data name="크림파스타" xml:space="preserve">
+    <value>크림파스타</value>
+  </data>
+  <data name="토마토스파게티" xml:space="preserve">
+    <value>토마토스파게티</value>
+  </data>
+  <data name="토스트" xml:space="preserve">
+    <value>토스트</value>
+  </data>
+  <data name="피자" xml:space="preserve">
+    <value>피자</value>
+  </data>
+  <data name="해물파스타" xml:space="preserve">
+    <value>해물파스타</value>
+  </data>
+  <data name="햄버거" xml:space="preserve">
+    <value>햄버거</value>
   </data>
 </root>
