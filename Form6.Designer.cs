@@ -130,6 +130,7 @@
             // 
             // pictureBox7
             // 
+            pictureBox7.BackgroundImage = (Image)resources.GetObject("pictureBox7.BackgroundImage");
             pictureBox7.Location = new Point(3, 451);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(239, 218);
@@ -160,6 +161,7 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
             pictureBox2.Location = new Point(3, 675);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(239, 221);
@@ -201,6 +203,7 @@
             // 
             // pictureBox3
             // 
+            pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
             pictureBox3.Location = new Point(493, 3);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(239, 218);
@@ -209,6 +212,7 @@
             // 
             // pictureBox6
             // 
+            pictureBox6.BackgroundImage = (Image)resources.GetObject("pictureBox6.BackgroundImage");
             pictureBox6.Location = new Point(493, 227);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(239, 218);
@@ -218,6 +222,7 @@
             // 
             // pictureBox8
             // 
+            pictureBox8.BackgroundImage = (Image)resources.GetObject("pictureBox8.BackgroundImage");
             pictureBox8.Location = new Point(493, 451);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(239, 218);
