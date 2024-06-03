@@ -76,21 +76,21 @@ namespace MJC_Foodproject
             else if (a == 1)
             {
                 Random randoms = new Random();
-                int b = randoms.Next(0, 3);
+                int b = randoms.Next(0, 13);
                 label1.Text = jp[b];
             }
 
             else if (a == 2)
             {
                 Random randoms = new Random();
-                int b = randoms.Next(0, 3);
+                int b = randoms.Next(0, 13);
                 label1.Text = ch[b];
             }
 
             else
             {
                 Random randoms = new Random();
-                int b = randoms.Next(0, 2);
+                int b = randoms.Next(0, 21);
                 label1.Text = am[b];
             }
         }
