@@ -13,37 +13,7 @@ namespace MJC_Foodproject
 {
     public partial class Form14 : Form
     {
-        private string[] imgPath = new string[]
-        {@"C:\Users\USER\Desktop\음식\한식\밥\국밥1.jpg",
-         @"C:\Users\USER\Desktop\음식\한식\밥\제육.jpg",
-         @"C:\Users\USER\Desktop\음식\한식\밥\순두부찌개.jpg",
-         @"C:\Users\USER\Desktop\음식\한식\밥\부대찌개.jpg",
-         @"C:\Users\USER\Desktop\음식\한식\밥\불고기.jpg",
-         @"C:\Users\USER\Desktop\음식\한식\밥\뼈해장국.jpg",
-         @"C:\Users\USER\Desktop\음식\한식\밥\돌솓비빔밥.jpg",
-         @"C:\Users\USER\Desktop\음식\한식\면\콩국수.jpg",
-         @"C:\Users\USER\Desktop\음식\한식\면\라면.jpg",
-         @"C:\Users\USER\Desktop\음식\한식\면\비빔국수.jpg",
-         @"C:\Users\USER\Desktop\음식\한식\면\잔치국수.jpg",
-         @"C:\Users\USER\Desktop\음식\한식\면\불냉면.jpg",
-         @"C:\Users\USER\Desktop\음식\한식\면\칼국수.jpg",
-         @"C:\Users\USER\Desktop\음식\한식\면\막국수.jpg",
-         //한식 끝
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-        };//이미지 넣는 경로
         public Form14()
         {
             InitializeComponent();
@@ -70,7 +40,7 @@ namespace MJC_Foodproject
                 Random randoms = new Random();
                 int b = randoms.Next(0, 15);
                 label1.Text = kr[b];
-                pictureBox1.Image = Image.FromFile(imgPath[b]);
+
             }
 
             else if (a == 1)
@@ -98,6 +68,13 @@ namespace MJC_Foodproject
         private void button1_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            main main = new main();
+            this.Visible = false;
+            main.ShowDialog();
         }
     }
 }

@@ -28,59 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            pictureBox1 = new PictureBox();
             button1 = new Button();
             label1 = new Label();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            button2 = new Button();
             SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Location = new Point(0, 0);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(707, 438);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
             // 
             // button1
             // 
-            button1.Location = new Point(713, 12);
+            button1.Location = new Point(713, 49);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 1;
-            button1.Text = "button1";
+            button1.Text = "닫기";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(725, 59);
+            label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            label1.Location = new Point(54, 26);
             label1.Name = "label1";
-            label1.Size = new Size(39, 15);
+            label1.Size = new Size(120, 47);
             label1.TabIndex = 2;
             label1.Text = "label1";
+            // 
+            // button2
+            // 
+            button2.Location = new Point(713, 20);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 3;
+            button2.Text = "처음으로";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // Form14
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(label1);
             Controls.Add(button1);
-            Controls.Add(pictureBox1);
             Name = "Form14";
             Text = "Form14";
             Load += Form14_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private PictureBox pictureBox1;
         private Button button1;
         private Label label1;
+        private Button button2;
     }
 }
