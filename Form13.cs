@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.DataFormats;
 
 namespace MJC_Foodproject
 {
@@ -15,6 +16,16 @@ namespace MJC_Foodproject
         public Form13()
         {
             InitializeComponent();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "음식이름", MessageBoxButtons.OK);
         }
     }
 }

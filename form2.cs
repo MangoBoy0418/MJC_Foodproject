@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.DataFormats;
 
 namespace MJC_Foodproject
 {
@@ -20,6 +21,20 @@ namespace MJC_Foodproject
         private void Form2_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 newform1 = new Form1();
+            newform1.ShowDialog();
+            this.Visible = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form6 newform6 = new Form6();
+            newform6.ShowDialog();
+            this.Visible = false;
         }
     }
 }

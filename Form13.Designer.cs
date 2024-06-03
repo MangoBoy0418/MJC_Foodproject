@@ -36,6 +36,8 @@
             button5 = new Button();
             button6 = new Button();
             label1 = new Label();
+            button7 = new Button();
+            button8 = new Button();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -70,6 +72,7 @@
             button1.TabIndex = 0;
             button1.Text = "토마토 스파게티";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -125,17 +128,40 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(84, 9);
+            label1.Location = new Point(3, 0);
             label1.Name = "label1";
             label1.Size = new Size(370, 47);
             label1.TabIndex = 2;
             label1.Text = "이 음식을 추천합니다!";
+            // 
+            // button7
+            // 
+            button7.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button7.Location = new Point(447, 5);
+            button7.Name = "button7";
+            button7.Size = new Size(75, 23);
+            button7.TabIndex = 4;
+            button7.Text = "닫기";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
+            // 
+            // button8
+            // 
+            button8.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button8.Location = new Point(447, 34);
+            button8.Name = "button8";
+            button8.Size = new Size(75, 23);
+            button8.TabIndex = 5;
+            button8.Text = "처음으로";
+            button8.UseVisualStyleBackColor = true;
             // 
             // Form13
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(534, 511);
+            Controls.Add(button8);
+            Controls.Add(button7);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(label1);
             MaximumSize = new Size(550, 550);
@@ -157,5 +183,7 @@
         private Button button5;
         private Button button6;
         private Label label1;
+        private Button button7;
+        private Button button8;
     }
 }

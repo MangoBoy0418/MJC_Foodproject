@@ -95,6 +95,7 @@
             button3.Text = "면";
             button3.TextAlign = ContentAlignment.BottomCenter;
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // label1
             // 
@@ -107,7 +108,7 @@
             label1.Text = "양식 종류를 고르시오";
             label1.TextAlign = ContentAlignment.TopCenter;
             // 
-            // western
+            // form5
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -116,7 +117,7 @@
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Name = "western";
+            Name = "form5";
             Text = "Form5";
             tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
