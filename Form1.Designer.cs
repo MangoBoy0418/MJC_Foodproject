@@ -31,22 +31,22 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             tableLayoutPanel1 = new TableLayoutPanel();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
             pictureBox4 = new PictureBox();
+            button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            button1 = new Button();
+            button2 = new Button();
+            button6 = new Button();
+            button7 = new Button();
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
             pictureBox7 = new PictureBox();
+            button8 = new Button();
+            button9 = new Button();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -61,7 +61,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(300, 12);
+            label1.Location = new Point(304, 9);
             label1.Name = "label1";
             label1.Size = new Size(370, 47);
             label1.TabIndex = 0;
@@ -99,105 +99,6 @@
             tableLayoutPanel1.Size = new Size(983, 899);
             tableLayoutPanel1.TabIndex = 1;
             // 
-            // button1
-            // 
-            button1.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button1.Location = new Point(248, 3);
-            button1.Name = "button1";
-            button1.Size = new Size(239, 218);
-            button1.TabIndex = 0;
-            button1.Text = "국밥";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // button2
-            // 
-            button2.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button2.Location = new Point(248, 227);
-            button2.Name = "button2";
-            button2.Size = new Size(239, 218);
-            button2.TabIndex = 1;
-            button2.Text = "제육볶음";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
-            // 
-            // button3
-            // 
-            button3.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button3.Location = new Point(738, 3);
-            button3.Name = "button3";
-            button3.Size = new Size(242, 218);
-            button3.TabIndex = 2;
-            button3.Text = "순두부찌개";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
-            // 
-            // button4
-            // 
-            button4.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button4.Location = new Point(738, 227);
-            button4.Name = "button4";
-            button4.Size = new Size(242, 218);
-            button4.TabIndex = 3;
-            button4.Text = "부대찌개";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
-            // 
-            // button5
-            // 
-            button5.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button5.Location = new Point(738, 451);
-            button5.Name = "button5";
-            button5.Size = new Size(242, 218);
-            button5.TabIndex = 4;
-            button5.Text = "불고기";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
-            // 
-            // button6
-            // 
-            button6.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button6.Location = new Point(248, 451);
-            button6.Name = "button6";
-            button6.Size = new Size(239, 218);
-            button6.TabIndex = 5;
-            button6.Text = "뼈해장국";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click;
-            // 
-            // button7
-            // 
-            button7.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button7.Location = new Point(248, 675);
-            button7.Name = "button7";
-            button7.Size = new Size(239, 221);
-            button7.TabIndex = 6;
-            button7.Text = "돌솥비빔밥";
-            button7.UseVisualStyleBackColor = true;
-            button7.Click += button7_Click;
-            // 
-            // button8
-            // 
-            button8.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button8.Location = new Point(824, 30);
-            button8.Name = "button8";
-            button8.Size = new Size(75, 23);
-            button8.TabIndex = 7;
-            button8.Text = "처음으로";
-            button8.UseVisualStyleBackColor = true;
-            button8.Click += button8_Click;
-            // 
-            // button9
-            // 
-            button9.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button9.Location = new Point(905, 30);
-            button9.Name = "button9";
-            button9.Size = new Size(75, 23);
-            button9.TabIndex = 6;
-            button9.Text = "닫기";
-            button9.UseVisualStyleBackColor = true;
-            button9.Click += button9_Click;
-            // 
             // pictureBox1
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
@@ -234,6 +135,83 @@
             pictureBox4.TabIndex = 11;
             pictureBox4.TabStop = false;
             // 
+            // button3
+            // 
+            button3.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button3.Location = new Point(738, 3);
+            button3.Name = "button3";
+            button3.Size = new Size(242, 218);
+            button3.TabIndex = 2;
+            button3.Text = "순두부찌개";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
+            // button4
+            // 
+            button4.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button4.Location = new Point(738, 227);
+            button4.Name = "button4";
+            button4.Size = new Size(242, 218);
+            button4.TabIndex = 3;
+            button4.Text = "부대찌개";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
+            // button5
+            // 
+            button5.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button5.Location = new Point(738, 451);
+            button5.Name = "button5";
+            button5.Size = new Size(242, 218);
+            button5.TabIndex = 4;
+            button5.Text = "불고기";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
+            // button1
+            // 
+            button1.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button1.Location = new Point(248, 3);
+            button1.Name = "button1";
+            button1.Size = new Size(239, 218);
+            button1.TabIndex = 0;
+            button1.Text = "국밥";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // button2
+            // 
+            button2.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button2.Location = new Point(248, 227);
+            button2.Name = "button2";
+            button2.Size = new Size(239, 218);
+            button2.TabIndex = 1;
+            button2.Text = "제육볶음";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // button6
+            // 
+            button6.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button6.Location = new Point(248, 451);
+            button6.Name = "button6";
+            button6.Size = new Size(239, 218);
+            button6.TabIndex = 5;
+            button6.Text = "뼈해장국";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
+            // 
+            // button7
+            // 
+            button7.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button7.Location = new Point(248, 675);
+            button7.Name = "button7";
+            button7.Size = new Size(239, 221);
+            button7.TabIndex = 6;
+            button7.Text = "돌솥비빔밥";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
+            // 
             // pictureBox5
             // 
             pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
@@ -260,6 +238,28 @@
             pictureBox7.Size = new Size(239, 221);
             pictureBox7.TabIndex = 14;
             pictureBox7.TabStop = false;
+            // 
+            // button8
+            // 
+            button8.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button8.Location = new Point(816, 30);
+            button8.Name = "button8";
+            button8.Size = new Size(75, 23);
+            button8.TabIndex = 7;
+            button8.Text = "처음으로";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
+            // 
+            // button9
+            // 
+            button9.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button9.Location = new Point(897, 30);
+            button9.Name = "button9";
+            button9.Size = new Size(75, 23);
+            button9.TabIndex = 6;
+            button9.Text = "닫기";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // Form1
             // 

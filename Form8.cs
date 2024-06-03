@@ -53,5 +53,10 @@ namespace MJC_Foodproject
         {
             MessageBox.Show("일본의 전통적인 면 요리인 마제소바는 미소 소스로 맛을 낸 소바 면을 뜨거운 물에 넣어 먹는데, 한 그릇의 칼로리는 약 300~400kcal이고, 평균 가격은 6,000원에서 9,000원입니다.", "마제소바", MessageBoxButtons.OK);
         }
+
+        private void Form8_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

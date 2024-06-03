@@ -181,7 +181,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(308, 9);
+            label1.Location = new Point(304, 9);
             label1.Name = "label1";
             label1.Size = new Size(370, 47);
             label1.TabIndex = 8;
@@ -190,7 +190,7 @@
             // button8
             // 
             button8.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button8.Location = new Point(830, 37);
+            button8.Location = new Point(816, 37);
             button8.Name = "button8";
             button8.Size = new Size(75, 23);
             button8.TabIndex = 15;
@@ -201,7 +201,7 @@
             // button9
             // 
             button9.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button9.Location = new Point(911, 34);
+            button9.Location = new Point(897, 34);
             button9.Name = "button9";
             button9.Size = new Size(75, 23);
             button9.TabIndex = 14;
