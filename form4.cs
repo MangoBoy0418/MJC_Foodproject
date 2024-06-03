@@ -25,7 +25,7 @@ namespace MJC_Foodproject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form9 newform9 = new Form9();\
+            Form9 newform9 = new Form9();
             this.Visible = false;
             newform9.ShowDialog();
         }
