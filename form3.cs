@@ -28,8 +28,8 @@ namespace MJC_Foodproject
         private void button2_Click(object sender, EventArgs e)
         {
             Form8 newform8 = new Form8();
-            newform8.ShowDialog();
             this.Visible = false;
+            newform8.ShowDialog();
         }
     }
 }
