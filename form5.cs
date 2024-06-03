@@ -21,8 +21,8 @@ namespace MJC_Foodproject
         private void button3_Click(object sender, EventArgs e)
         {
             Form13 newform13 = new Form13();
-            newform13.ShowDialog();
             this.Visible = false;
+            newform13.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
