@@ -20,12 +20,19 @@ namespace MJC_Foodproject
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("메뉴설명", "음식이름", MessageBoxButtons.OK);
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            main main = new main();
+            this.Visible = false;
+            main.ShowDialog();
         }
     }
 }

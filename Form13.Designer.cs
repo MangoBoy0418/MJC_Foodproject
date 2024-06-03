@@ -154,6 +154,7 @@
             button8.TabIndex = 5;
             button8.Text = "처음으로";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
             // Form13
             // 
