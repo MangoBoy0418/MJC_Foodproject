@@ -137,7 +137,7 @@
             // button7
             // 
             button7.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button7.Location = new Point(447, 5);
+            button7.Location = new Point(459, 0);
             button7.Name = "button7";
             button7.Size = new Size(75, 23);
             button7.TabIndex = 4;
@@ -148,7 +148,7 @@
             // button8
             // 
             button8.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button8.Location = new Point(447, 34);
+            button8.Location = new Point(459, 29);
             button8.Name = "button8";
             button8.Size = new Size(75, 23);
             button8.TabIndex = 5;

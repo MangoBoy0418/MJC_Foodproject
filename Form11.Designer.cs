@@ -35,6 +35,8 @@
             button4 = new Button();
             button6 = new Button();
             label1 = new Label();
+            button8 = new Button();
+            button9 = new Button();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -112,17 +114,41 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(85, 14);
+            label1.Location = new Point(0, -3);
             label1.Name = "label1";
             label1.Size = new Size(370, 47);
             label1.TabIndex = 2;
             label1.Text = "이 음식을 추천합니다!";
+            // 
+            // button8
+            // 
+            button8.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button8.Location = new Point(459, 26);
+            button8.Name = "button8";
+            button8.Size = new Size(75, 23);
+            button8.TabIndex = 17;
+            button8.Text = "처음으로";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
+            // 
+            // button9
+            // 
+            button9.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button9.Location = new Point(459, -3);
+            button9.Name = "button9";
+            button9.Size = new Size(75, 23);
+            button9.TabIndex = 16;
+            button9.Text = "닫기";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // Form11
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(534, 511);
+            Controls.Add(button8);
+            Controls.Add(button9);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(label1);
             MaximumSize = new Size(550, 550);
@@ -143,5 +169,7 @@
         private Button button4;
         private Button button6;
         private Label label1;
+        private Button button8;
+        private Button button9;
     }
 }

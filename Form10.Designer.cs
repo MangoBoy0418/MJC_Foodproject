@@ -31,10 +31,12 @@
             tableLayoutPanel1 = new TableLayoutPanel();
             button2 = new Button();
             button3 = new Button();
+            button1 = new Button();
             button5 = new Button();
             button6 = new Button();
-            button1 = new Button();
             label1 = new Label();
+            button8 = new Button();
+            button9 = new Button();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -47,7 +49,7 @@
             tableLayoutPanel1.Controls.Add(button1, 0, 0);
             tableLayoutPanel1.Controls.Add(button5, 0, 3);
             tableLayoutPanel1.Controls.Add(button6, 0, 4);
-            tableLayoutPanel1.Location = new Point(0, 56);
+            tableLayoutPanel1.Location = new Point(0, 63);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 5;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
@@ -78,6 +80,16 @@
             button3.Text = "간짜짱";
             button3.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            button1.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button1.Location = new Point(3, 3);
+            button1.Name = "button1";
+            button1.Size = new Size(528, 84);
+            button1.TabIndex = 0;
+            button1.Text = "짜장면";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // button5
             // 
             button5.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
@@ -98,31 +110,45 @@
             button6.Text = "차돌짬뽕";
             button6.UseVisualStyleBackColor = true;
             // 
-            // button1
-            // 
-            button1.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button1.Location = new Point(3, 3);
-            button1.Name = "button1";
-            button1.Size = new Size(528, 84);
-            button1.TabIndex = 0;
-            button1.Text = "짜장면";
-            button1.UseVisualStyleBackColor = true;
-            // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(82, 3);
+            label1.Location = new Point(0, -4);
             label1.Name = "label1";
             label1.Size = new Size(370, 47);
             label1.TabIndex = 8;
             label1.Text = "이 음식을 추천합니다!";
+            // 
+            // button8
+            // 
+            button8.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button8.Location = new Point(456, 25);
+            button8.Name = "button8";
+            button8.Size = new Size(75, 23);
+            button8.TabIndex = 15;
+            button8.Text = "처음으로";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
+            // 
+            // button9
+            // 
+            button9.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            button9.Location = new Point(456, -4);
+            button9.Name = "button9";
+            button9.Size = new Size(75, 23);
+            button9.TabIndex = 14;
+            button9.Text = "닫기";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // Form10
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(534, 511);
+            Controls.Add(button8);
+            Controls.Add(button9);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(label1);
             MaximumSize = new Size(550, 550);
@@ -143,5 +169,7 @@
         private Button button6;
         private Button button1;
         private Label label1;
+        private Button button8;
+        private Button button9;
     }
 }

@@ -21,5 +21,17 @@ namespace MJC_Foodproject
         {
 
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            main main = new main();
+            this.Visible = false;
+            main.ShowDialog();
+        }
     }
 }
