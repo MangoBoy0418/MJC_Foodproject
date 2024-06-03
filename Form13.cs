@@ -25,7 +25,7 @@ namespace MJC_Foodproject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("메뉴설명", "음식이름", MessageBoxButtons.OK);
+            MessageBox.Show("메뉴설명", "토마토 스파게티", MessageBoxButtons.OK);
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -33,6 +33,31 @@ namespace MJC_Foodproject
             main main = new main();
             this.Visible = false;
             main.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "크림 스파게티", MessageBoxButtons.OK);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "로제 파스타", MessageBoxButtons.OK);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "알리오 올리오", MessageBoxButtons.OK);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "먹물 파스타", MessageBoxButtons.OK);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "해물 스파게티", MessageBoxButtons.OK);
         }
     }
 }

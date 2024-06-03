@@ -28,5 +28,40 @@ namespace MJC_Foodproject
             this.Visible = false;
             main.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "계란볶음밥", MessageBoxButtons.OK);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "짜장밥", MessageBoxButtons.OK);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "마파두부", MessageBoxButtons.OK);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "짬봉밥", MessageBoxButtons.OK);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "잡탕밥", MessageBoxButtons.OK);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "차오판", MessageBoxButtons.OK);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "잡채밥", MessageBoxButtons.OK);
+        }
     }
 }

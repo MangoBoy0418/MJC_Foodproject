@@ -46,9 +46,10 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(17, 15);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(370, 47);
+            label1.Size = new Size(562, 71);
             label1.TabIndex = 0;
             label1.Text = "이 음식을 추천합니다!";
             label1.Click += label1_Click;
@@ -64,7 +65,8 @@
             tableLayoutPanel1.Controls.Add(button5, 0, 4);
             tableLayoutPanel1.Controls.Add(button6, 0, 5);
             tableLayoutPanel1.Controls.Add(button7, 0, 6);
-            tableLayoutPanel1.Location = new Point(0, 59);
+            tableLayoutPanel1.Location = new Point(0, 98);
+            tableLayoutPanel1.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 7;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
@@ -74,85 +76,100 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tableLayoutPanel1.Size = new Size(534, 452);
+            tableLayoutPanel1.Size = new Size(763, 753);
             tableLayoutPanel1.TabIndex = 1;
             // 
             // button1
             // 
             button1.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button1.Location = new Point(3, 3);
+            button1.Location = new Point(4, 5);
+            button1.Margin = new Padding(4, 5, 4, 5);
             button1.Name = "button1";
-            button1.Size = new Size(528, 58);
+            button1.Size = new Size(754, 97);
             button1.TabIndex = 0;
             button1.Text = "국밥";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
             button2.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button2.Location = new Point(3, 67);
+            button2.Location = new Point(4, 112);
+            button2.Margin = new Padding(4, 5, 4, 5);
             button2.Name = "button2";
-            button2.Size = new Size(528, 58);
+            button2.Size = new Size(754, 97);
             button2.TabIndex = 1;
             button2.Text = "제육";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
             button3.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button3.Location = new Point(3, 131);
+            button3.Location = new Point(4, 219);
+            button3.Margin = new Padding(4, 5, 4, 5);
             button3.Name = "button3";
-            button3.Size = new Size(528, 58);
+            button3.Size = new Size(754, 97);
             button3.TabIndex = 2;
             button3.Text = "순두부찌개";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
             button4.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button4.Location = new Point(3, 195);
+            button4.Location = new Point(4, 326);
+            button4.Margin = new Padding(4, 5, 4, 5);
             button4.Name = "button4";
-            button4.Size = new Size(528, 58);
+            button4.Size = new Size(754, 97);
             button4.TabIndex = 3;
             button4.Text = "부대찌개";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
             button5.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button5.Location = new Point(3, 259);
+            button5.Location = new Point(4, 433);
+            button5.Margin = new Padding(4, 5, 4, 5);
             button5.Name = "button5";
-            button5.Size = new Size(528, 58);
+            button5.Size = new Size(754, 97);
             button5.TabIndex = 4;
             button5.Text = "불고기";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
             button6.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button6.Location = new Point(3, 323);
+            button6.Location = new Point(4, 540);
+            button6.Margin = new Padding(4, 5, 4, 5);
             button6.Name = "button6";
-            button6.Size = new Size(528, 58);
+            button6.Size = new Size(754, 97);
             button6.TabIndex = 5;
             button6.Text = "뼈해장국";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // button7
             // 
             button7.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button7.Location = new Point(3, 387);
+            button7.Location = new Point(4, 647);
+            button7.Margin = new Padding(4, 5, 4, 5);
             button7.Name = "button7";
-            button7.Size = new Size(528, 62);
+            button7.Size = new Size(754, 101);
             button7.TabIndex = 6;
             button7.Text = "돌솥비빔밥";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // button8
             // 
             button8.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button8.Location = new Point(456, 29);
+            button8.Location = new Point(651, 48);
+            button8.Margin = new Padding(4, 5, 4, 5);
             button8.Name = "button8";
-            button8.Size = new Size(75, 23);
+            button8.Size = new Size(107, 38);
             button8.TabIndex = 7;
             button8.Text = "처음으로";
             button8.UseVisualStyleBackColor = true;
@@ -161,9 +178,10 @@
             // button9
             // 
             button9.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button9.Location = new Point(456, 0);
+            button9.Location = new Point(651, 0);
+            button9.Margin = new Padding(4, 5, 4, 5);
             button9.Name = "button9";
-            button9.Size = new Size(75, 23);
+            button9.Size = new Size(107, 38);
             button9.TabIndex = 6;
             button9.Text = "닫기";
             button9.UseVisualStyleBackColor = true;
@@ -171,15 +189,16 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(534, 511);
+            ClientSize = new Size(754, 823);
             Controls.Add(button8);
             Controls.Add(button9);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(label1);
-            MaximumSize = new Size(550, 550);
-            MinimumSize = new Size(550, 550);
+            Margin = new Padding(4, 5, 4, 5);
+            MaximumSize = new Size(776, 879);
+            MinimumSize = new Size(776, 879);
             Name = "Form1";
             Text = "Form1";
             tableLayoutPanel1.ResumeLayout(false);

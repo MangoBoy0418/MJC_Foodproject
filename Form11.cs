@@ -28,5 +28,30 @@ namespace MJC_Foodproject
             this.Visible = false;
             main.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "샌드위치", MessageBoxButtons.OK);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "햄버거", MessageBoxButtons.OK);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "피자", MessageBoxButtons.OK);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "토스트", MessageBoxButtons.OK);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메뉴설명", "빵", MessageBoxButtons.OK);
+        }
     }
 }
