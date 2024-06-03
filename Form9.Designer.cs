@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form9));
             tableLayoutPanel1 = new TableLayoutPanel();
             button2 = new Button();
             button3 = new Button();
@@ -39,39 +40,60 @@
             label1 = new Label();
             button8 = new Button();
             button9 = new Button();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            pictureBox4 = new PictureBox();
+            pictureBox5 = new PictureBox();
+            pictureBox6 = new PictureBox();
+            pictureBox7 = new PictureBox();
             tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.ColumnCount = 1;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.Controls.Add(button2, 0, 1);
-            tableLayoutPanel1.Controls.Add(button3, 0, 2);
-            tableLayoutPanel1.Controls.Add(button4, 0, 3);
-            tableLayoutPanel1.Controls.Add(button5, 0, 4);
-            tableLayoutPanel1.Controls.Add(button6, 0, 5);
-            tableLayoutPanel1.Controls.Add(button7, 0, 6);
-            tableLayoutPanel1.Controls.Add(button1, 0, 0);
+            tableLayoutPanel1.ColumnCount = 4;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25F));
+            tableLayoutPanel1.Controls.Add(button1, 1, 0);
+            tableLayoutPanel1.Controls.Add(button2, 1, 1);
+            tableLayoutPanel1.Controls.Add(button7, 1, 3);
+            tableLayoutPanel1.Controls.Add(button5, 3, 2);
+            tableLayoutPanel1.Controls.Add(button4, 3, 1);
+            tableLayoutPanel1.Controls.Add(button3, 3, 0);
+            tableLayoutPanel1.Controls.Add(pictureBox1, 0, 0);
+            tableLayoutPanel1.Controls.Add(pictureBox2, 2, 0);
+            tableLayoutPanel1.Controls.Add(pictureBox4, 2, 1);
+            tableLayoutPanel1.Controls.Add(pictureBox5, 0, 2);
+            tableLayoutPanel1.Controls.Add(pictureBox6, 2, 2);
+            tableLayoutPanel1.Controls.Add(pictureBox7, 0, 3);
+            tableLayoutPanel1.Controls.Add(button6, 1, 2);
+            tableLayoutPanel1.Controls.Add(pictureBox3, 0, 1);
             tableLayoutPanel1.Location = new Point(0, 62);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 7;
+            tableLayoutPanel1.RowCount = 4;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 14.2857141F));
-            tableLayoutPanel1.Size = new Size(534, 452);
+            tableLayoutPanel1.Size = new Size(984, 898);
             tableLayoutPanel1.TabIndex = 7;
             // 
             // button2
             // 
             button2.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button2.Location = new Point(3, 67);
+            button2.Location = new Point(249, 227);
             button2.Name = "button2";
-            button2.Size = new Size(528, 58);
+            button2.Size = new Size(240, 218);
             button2.TabIndex = 1;
             button2.Text = "짜장밥";
             button2.UseVisualStyleBackColor = true;
@@ -80,9 +102,9 @@
             // button3
             // 
             button3.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button3.Location = new Point(3, 131);
+            button3.Location = new Point(741, 3);
             button3.Name = "button3";
-            button3.Size = new Size(528, 58);
+            button3.Size = new Size(240, 218);
             button3.TabIndex = 2;
             button3.Text = "마파두부";
             button3.UseVisualStyleBackColor = true;
@@ -91,9 +113,9 @@
             // button4
             // 
             button4.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button4.Location = new Point(3, 195);
+            button4.Location = new Point(741, 227);
             button4.Name = "button4";
-            button4.Size = new Size(528, 58);
+            button4.Size = new Size(240, 218);
             button4.TabIndex = 3;
             button4.Text = "짬봉밥";
             button4.UseVisualStyleBackColor = true;
@@ -102,9 +124,9 @@
             // button5
             // 
             button5.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button5.Location = new Point(3, 259);
+            button5.Location = new Point(741, 451);
             button5.Name = "button5";
-            button5.Size = new Size(528, 58);
+            button5.Size = new Size(240, 218);
             button5.TabIndex = 4;
             button5.Text = "잡탕밥";
             button5.UseVisualStyleBackColor = true;
@@ -113,9 +135,9 @@
             // button6
             // 
             button6.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button6.Location = new Point(3, 323);
+            button6.Location = new Point(249, 451);
             button6.Name = "button6";
-            button6.Size = new Size(528, 58);
+            button6.Size = new Size(240, 218);
             button6.TabIndex = 5;
             button6.Text = "새우볶음밥";
             button6.UseVisualStyleBackColor = true;
@@ -124,9 +146,9 @@
             // button7
             // 
             button7.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button7.Location = new Point(3, 387);
+            button7.Location = new Point(249, 675);
             button7.Name = "button7";
-            button7.Size = new Size(528, 61);
+            button7.Size = new Size(240, 220);
             button7.TabIndex = 6;
             button7.Text = "잡채밥";
             button7.UseVisualStyleBackColor = true;
@@ -135,9 +157,9 @@
             // button1
             // 
             button1.Font = new Font("맑은 고딕", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button1.Location = new Point(3, 3);
+            button1.Location = new Point(249, 3);
             button1.Name = "button1";
-            button1.Size = new Size(528, 58);
+            button1.Size = new Size(240, 218);
             button1.TabIndex = 0;
             button1.Text = "계란 볶음밥";
             button1.UseVisualStyleBackColor = true;
@@ -147,7 +169,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(0, -2);
+            label1.Location = new Point(304, 9);
             label1.Name = "label1";
             label1.Size = new Size(370, 47);
             label1.TabIndex = 6;
@@ -156,7 +178,7 @@
             // button8
             // 
             button8.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button8.Location = new Point(459, 27);
+            button8.Location = new Point(825, 33);
             button8.Name = "button8";
             button8.Size = new Size(75, 23);
             button8.TabIndex = 13;
@@ -167,7 +189,7 @@
             // button9
             // 
             button9.Font = new Font("맑은 고딕", 9F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            button9.Location = new Point(459, -2);
+            button9.Location = new Point(906, 33);
             button9.Name = "button9";
             button9.Size = new Size(75, 23);
             button9.TabIndex = 12;
@@ -175,20 +197,90 @@
             button9.UseVisualStyleBackColor = true;
             button9.Click += button9_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
+            pictureBox1.Location = new Point(3, 3);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(240, 218);
+            pictureBox1.TabIndex = 7;
+            pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
+            pictureBox2.Location = new Point(495, 3);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(240, 218);
+            pictureBox2.TabIndex = 8;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
+            pictureBox3.Location = new Point(3, 227);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(240, 218);
+            pictureBox3.TabIndex = 9;
+            pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
+            pictureBox4.Location = new Point(495, 227);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(240, 218);
+            pictureBox4.TabIndex = 10;
+            pictureBox4.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
+            pictureBox5.Location = new Point(3, 451);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(240, 218);
+            pictureBox5.TabIndex = 11;
+            pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.BackgroundImage = (Image)resources.GetObject("pictureBox6.BackgroundImage");
+            pictureBox6.Location = new Point(495, 451);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(240, 218);
+            pictureBox6.TabIndex = 12;
+            pictureBox6.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            pictureBox7.BackgroundImage = (Image)resources.GetObject("pictureBox7.BackgroundImage");
+            pictureBox7.Location = new Point(3, 675);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new Size(240, 220);
+            pictureBox7.TabIndex = 13;
+            pictureBox7.TabStop = false;
+            // 
             // Form9
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(532, 504);
+            ClientSize = new Size(984, 961);
             Controls.Add(button8);
             Controls.Add(button9);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(label1);
-            MaximumSize = new Size(548, 543);
-            MinimumSize = new Size(548, 543);
+            MaximumSize = new Size(1000, 1000);
+            MinimumSize = new Size(1000, 1000);
             Name = "Form9";
             Text = "Form9";
             tableLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -206,5 +298,12 @@
         private Label label1;
         private Button button8;
         private Button button9;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox4;
+        private PictureBox pictureBox5;
+        private PictureBox pictureBox6;
+        private PictureBox pictureBox7;
     }
 }
