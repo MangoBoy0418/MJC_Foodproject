@@ -264,13 +264,14 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(984, 791);
+            BackColor = Color.PapayaWhip;
+            ClientSize = new Size(984, 961);
             Controls.Add(button8);
             Controls.Add(button9);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(label1);
-            MaximumSize = new Size(1000, 998);
-            MinimumSize = new Size(1000, 781);
+            MaximumSize = new Size(1000, 1000);
+            MinimumSize = new Size(1000, 1000);
             Name = "Form9";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form9";

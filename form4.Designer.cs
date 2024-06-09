@@ -43,12 +43,11 @@
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.Controls.Add(button1, 0, 0);
             tableLayoutPanel1.Controls.Add(button2, 1, 0);
-            tableLayoutPanel1.Dock = DockStyle.Bottom;
-            tableLayoutPanel1.Location = new Point(0, 90);
+            tableLayoutPanel1.Location = new Point(53, 126);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(534, 421);
+            tableLayoutPanel1.Size = new Size(474, 274);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // button1
@@ -59,7 +58,7 @@
             button1.ForeColor = SystemColors.HighlightText;
             button1.Location = new Point(3, 3);
             button1.Name = "button1";
-            button1.Size = new Size(261, 415);
+            button1.Size = new Size(231, 268);
             button1.TabIndex = 0;
             button1.Text = "밥";
             button1.TextAlign = ContentAlignment.BottomCenter;
@@ -72,9 +71,9 @@
             button2.BackgroundImageLayout = ImageLayout.Stretch;
             button2.Font = new Font("맑은 고딕", 18F, FontStyle.Bold, GraphicsUnit.Point, 129);
             button2.ForeColor = SystemColors.HighlightText;
-            button2.Location = new Point(270, 3);
+            button2.Location = new Point(240, 3);
             button2.Name = "button2";
-            button2.Size = new Size(261, 415);
+            button2.Size = new Size(231, 268);
             button2.TabIndex = 1;
             button2.Text = "면";
             button2.TextAlign = ContentAlignment.BottomCenter;
@@ -84,8 +83,9 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.PapayaWhip;
             label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(87, 24);
+            label1.Location = new Point(96, 39);
             label1.Name = "label1";
             label1.Size = new Size(359, 47);
             label1.TabIndex = 1;
@@ -97,10 +97,12 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            ClientSize = new Size(534, 511);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(584, 561);
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            MinimumSize = new Size(600, 600);
             Name = "form4";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form4";

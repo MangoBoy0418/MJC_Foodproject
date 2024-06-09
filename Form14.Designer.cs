@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form14));
             button1 = new Button();
             label1 = new Label();
             button2 = new Button();
@@ -37,7 +38,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(329, 39);
+            button1.Location = new Point(497, 60);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 1;
@@ -48,17 +49,17 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Dock = DockStyle.Top;
-            label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(0, 0);
+            label1.BackColor = Color.PapayaWhip;
+            label1.Font = new Font("맑은 고딕", 36F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            label1.Location = new Point(184, 31);
             label1.Name = "label1";
-            label1.Size = new Size(120, 47);
+            label1.Size = new Size(164, 65);
             label1.TabIndex = 2;
             label1.Text = "label1";
             // 
             // button2
             // 
-            button2.Location = new Point(329, 10);
+            button2.Location = new Point(497, 31);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 3;
@@ -68,11 +69,11 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Dock = DockStyle.Bottom;
-            pictureBox1.Location = new Point(0, 73);
+            pictureBox1.Location = new Point(68, 120);
             pictureBox1.Margin = new Padding(2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(415, 310);
+            pictureBox1.Size = new Size(443, 368);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 4;
             pictureBox1.TabStop = false;
             // 
@@ -80,13 +81,14 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(415, 383);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(584, 561);
             Controls.Add(pictureBox1);
             Controls.Add(button2);
             Controls.Add(label1);
             Controls.Add(button1);
-            MaximumSize = new Size(431, 422);
-            MinimumSize = new Size(431, 422);
+            MaximumSize = new Size(600, 600);
+            MinimumSize = new Size(600, 600);
             Name = "Form14";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form14";

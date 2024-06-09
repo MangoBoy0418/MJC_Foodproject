@@ -233,7 +233,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("맑은 고딕", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(298, 9);
+            label1.Location = new Point(308, 10);
             label1.Name = "label1";
             label1.Size = new Size(370, 47);
             label1.TabIndex = 2;
@@ -265,6 +265,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.PapayaWhip;
             ClientSize = new Size(984, 961);
             Controls.Add(button8);
             Controls.Add(button9);
