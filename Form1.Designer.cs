@@ -273,6 +273,7 @@
             MaximumSize = new Size(1000, 1000);
             MinimumSize = new Size(1000, 1000);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

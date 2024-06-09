@@ -152,6 +152,7 @@
             MaximumSize = new Size(550, 550);
             MinimumSize = new Size(550, 550);
             Name = "main";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += main_Load;
             tableLayoutPanel1.ResumeLayout(false);

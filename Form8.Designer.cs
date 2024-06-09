@@ -221,6 +221,7 @@
             MaximumSize = new Size(1000, 700);
             MinimumSize = new Size(1000, 700);
             Name = "Form8";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form8";
             Load += Form8_Load;
             tableLayoutPanel1.ResumeLayout(false);

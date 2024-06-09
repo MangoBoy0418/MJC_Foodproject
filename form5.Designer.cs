@@ -120,6 +120,7 @@
             Controls.Add(tableLayoutPanel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "form5";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form5";
             tableLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
