@@ -13,14 +13,14 @@ namespace MJC_Foodproject
 {
     public partial class Form14 : Form
     {
-        private (Bitmap Image, string Text)[] resources;
+        private (Bitmap Image, string Text)[] resources; //리소스의 배열을 생성
         public Form14()
         {
             InitializeComponent();
-            this.Controls.Add(pictureBox1);
-            this.Controls.Add(label1);
-            LoadResources();
-            ShowRandomResource();
+            this.Controls.Add(pictureBox1); //도구상자에서 pictureBox를 추가
+            this.Controls.Add(label1);  //도구상자에서 label1을 추가
+            LoadResources();            //리소스를 로드하는 역할
+            ShowRandomResource();       //로드된 리소스들 중 하나를 무작위로 선택하여 화면에 표시하는 역할
 
         }
 
@@ -28,8 +28,8 @@ namespace MJC_Foodproject
         {
             resources = new (Bitmap, string)[]
             {
-            (Properties.Resources.ganjjazang, Properties.Resources.간짜장),
-            (Properties.Resources.gookbob, Properties.Resources.국밥),
+            (Properties.Resources.ganjjazang, Properties.Resources.간짜장), 
+            (Properties.Resources.gookbob, Properties.Resources.국밥), 
             (Properties.Resources.kyudong, Properties.Resources.규동),
             (Properties.Resources.jabtangbob, Properties.Resources.잡탕밥),
             (Properties.Resources.hamberger, Properties.Resources.햄버거),
@@ -81,30 +81,30 @@ namespace MJC_Foodproject
             (Properties.Resources.friedchicken, Properties.Resources.치킨),
             (Properties.Resources.curryrice, Properties.Resources.카레라이스),
             (Properties.Resources.kebob, Properties.Resources.케밥),
-            (Properties.Resources.beannoodle, Properties.Resources.콩국수),
+            (Properties.Resources.beannoodle, Properties.Resources.콩국수)
            
                 // 추가한 리소스를 여기에 나열
             };
         }
 
-        private void ShowRandomResource()
+        private void ShowRandomResource()  //사진들 중 무작위로 선택하여 화면에 표시
         {
-            Random random = new Random();
-            int index = random.Next(resources.Length);
-            pictureBox1.Image = resources[index].Image;
-            label1.Text = resources[index].Text;
+            Random random = new Random(); //랜덤 클래스 생성
+            int index = random.Next(resources.Length); //배열의 길이만큼의 정수 생성하고 랜덤 변수 생성
+            pictureBox1.Image = resources[index].Image; //리소스 배열에 랜덤 변수를 넣어 나오는 이미지를 pictureBox1에 삽입
+            label1.Text = resources[index].Text;        //리소스 배열에 랜덤 변수를 넣어 나오는 텍스트를 label1에 삽입
         }
         private void Form14_Load(object sender, EventArgs e)
         {
             
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //버튼 클릭시 종료
         {
             Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e) //다음 폼으로 넘어가기
         {
             main main = new main();
             this.Visible = false;

@@ -23,11 +23,11 @@ namespace MJC_Foodproject
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Visible = false;
-            form2 newform2 = new form2();
-            newform2.ShowDialog();
+        private void button1_Click(object sender, EventArgs e) //버튼을 누루면 다음 폼으로
+        {   
+            this.Visible = false; //폼창에 속성을 보이지 않게 바꿈
+            form2 newform2 = new form2(); //폼2 생성 
+            newform2.ShowDialog(); //폼2 보여주기
         }
 
         private void button2_Click(object sender, EventArgs e)

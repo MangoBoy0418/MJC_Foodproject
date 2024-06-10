@@ -23,9 +23,9 @@ namespace MJC_Foodproject
 
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void button9_Click(object sender, EventArgs e)//버튼을 클릭시 종료
         {
-            Close();
+            Close(); //종료
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -35,7 +35,7 @@ namespace MJC_Foodproject
             main.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //메시지 박스 추가 *메시지 박스에는 사진이 들어가지 못함*
         {
             MessageBox.Show("국밥은 고기와 채소를 넣은 국에 밥을 말아 먹는 한국의 전통 음식으로, 한 그릇의 칼로리는 약 400~600kcal이며, 평균 가격은 7,000원에서 10,000원입니다.", "국밥", MessageBoxButtons.OK);
         }
